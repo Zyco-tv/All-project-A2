@@ -1,0 +1,17 @@
+{
+    "name": "tomlitaudon/let-autoload",
+    "authors": [
+        {
+            "name": "spirit-tv",
+            "email": "tlitaudon@gmail.com"
+        }
+    ],
+    "require": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\" : "src/"
+        }
+    }
+}

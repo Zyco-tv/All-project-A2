@@ -1,0 +1,35 @@
+Qu'est ce qu'on veut valider ?
+
+caractère laphanumerique 
+champ vide
+email
+url
+telephone
+string
+int
+numeric
+min
+max
+slug
+regex
+
+
+
+Comment on va l'utiliser ?
+
+$validator = new Validator();
+
+$validation->email("email");
+
+
+
+
+Crée la classe
+
+-Attributs(etat)
+
+
+
+
+
+-Méthodes(comportement)
