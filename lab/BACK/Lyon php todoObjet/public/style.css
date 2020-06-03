@@ -1,0 +1,13 @@
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+
+.icon {
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+}

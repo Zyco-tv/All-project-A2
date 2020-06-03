@@ -1,0 +1,14 @@
+{
+    "name": "mastermind",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "tailwind": "tailwind build tailwind.css -c tailwind.config.js -o style.css"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "devDependencies": {
+        "tailwindcss": "^1.1.2"
+    }
+}
