@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercice sur les sélecteurs</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" integrity="sha384-rtJEYb85SiYWgfpCr0jn174XgJTn4rptSOQsMroFBPQSGLdOC5IbubP6lJ35qoM9" crossorigin="anonymous">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="font-sans">
+    <header class="bg-teal-500 p-2 text-white">
+        <div class="container mx-auto flex justify-between">
+            <h1 class="p-4 hover:bg-teal-800 rounded">Sélecteurs CSS</h1>
+            <nav class="flex">
+                <ul class="flex m-auto">
+                    <li><a href="https://www.w3schools.com/css/css_selectors.asp" class="p-4 hover:bg-teal-700 rounded mr-8" target="_blank">Sélecteurs </a></li>
+                    <li><a href="https://www.w3schools.com/cssref/css_selectors.asp" class="p-4 hover:bg-teal-700 rounded mr-8" target="_blank">Sélecteurs Référence</a></li>
+                    <li><a href="https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github" class="p-4 hover:bg-teal-700 rounded" target="_blank">Rappel Git et GITHUB</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+    </header>
+    <main class="families mt-6">
+        <h2 class="text-center mb-6 text-5xl">Famille de Matthieu</h2>
+        <section class="trolls flex justify-around flex-wrap text-center">
+                <div class="border-8 border-red-600 p-2">
+                    <p class="p-4 boy">Arthur</p>
+
+                    <div class="flex p-2">
+                        <div class="border-4 border-red-400 p-4">
+                            <p class="boy p-4">Félix</p>
+
+                            <div class="flex border-2 border-red-200">
+                                    <p class="p-4 boy">Isaac</p>
+                                    <p class="p-4 girl">Camille</p>
+                            </div>
+                        </div>
+    
+                        <div class="border-4 border-red-400 mx-4 p-4">
+                            <p class="girl p-4">Louise</p>
+                        </div>
+    
+                        <div class="border-4 border-red-400 p-4">
+                            <p class="p-4 boy">Gabriel</p>
+
+                            <div class="flex border-2 border-red-200">
+                                <p class="p-4 girl">Ambre</p>
+                                <p class="p-4 boy">Léo</p>
+                                <p class="p-4 boy">Maël</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="border-8 border-blue-600 p-4 mt-8 lg:mt-0">
+                    <p  class="p-4 boy">Francis</p>
+
+                    <div class="flex">
+                        <div class="border-4 border-blue-400 p-4">
+                            <p class="p-4 girl">Agathe</p>
+                            <div class="flex border-2 border-blue-200">
+                                <p class="p-4 girl">Jade</p>
+                            </div>
+                        </div>
+
+                        <div class="border-4 border-blue-400 p-4 mx-4">
+                            <p class="p-4 girl">Elodie</p>
+                        </div>
+
+                        <div class="border-4 border-blue-400 p-4">
+                            <p class="p-4 boy">Hugo</p>
+                            <div class="flex border-2 border-blue-200">
+                                <p class="p-4 girl">Julia</p>
+                                <p class="p-4 boy">Valentin</p>
+                                <p class="p-4 boy">Gabin</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="border-8 border-green-600 p-4 mt-8">
+                    <p  class="p-4 boy">Benjamin</p>
+                    
+                    <div class="flex">
+                        <div class="border-4 border-green-400 p-4">
+                            <p class="p-4 girl">Mila</p>
+                            <div class="flex border-2 border-green-200">
+                                <p class="p-4 girl">Alice</p>
+                                <p class="p-4 boy">Théo</p>
+                            </div>
+                        </div>
+
+                        <div class="border-4 border-green-400 p-4 mx-4">
+                            <p class="p-4 boy">Jules</p>
+                        </div>
+
+                        <div class="border-4 border-green-400 p-4">
+                            <p class="p-4 girl">Emma</p>
+                            <div class="flex border-2 border-green-200">
+                                <p class="p-4 boy">Lucas</p>
+                            </div>
+                        </div>
+
+                        <div class="border-4 border-green-400 mx-4 p-4">
+                            <p class="p-4 boy">Sacha</p>
+                            <div class="flex border-2 border-green-200">
+                                <p class="p-4 girl">Andréa</p>
+                                <p class="p-4 boy">Ethan</p>
+                                <p class="p-4 boy">Antoine</p>
+                                <p class="p-4 girl">Lucie</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </main>
+</body>
+</html>

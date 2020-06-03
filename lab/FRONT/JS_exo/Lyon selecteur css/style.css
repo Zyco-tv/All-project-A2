@@ -1,0 +1,105 @@
+/*
+ * Author: mthdht
+ * Student: YOUR NAME 
+ *  
+ * CSS file for selector exercice
+ */
+
+ 
+
+ /* Google Font utilisé pour l'exercice */
+ @import url('https://fonts.googleapis.com/css?family=Chilanka&display=swap');
+
+/***** ETAPE 1 *****/
+
+
+
+/***** ETAPE 2 *****/
+main>section>div>p {
+    size: 30;
+    font-weight:bold;
+}
+
+
+/***** ETAPE 3 *****/
+main>section>div:first-child>div>div>p {
+    background-color: red;
+    size: 20px;
+}
+
+
+/***** ETAPE 4 *****/
+
+section > div:nth-child(2) > div {
+    font-family: 'Chilanka';
+}
+section > div:first-child> div {
+    font-family: 'Chilanka';
+}
+
+/***** ETAPE 5 *****/
+
+.trolls > div:first-child > div > div:nth-child(2) > p   {
+    background: yellow;
+}
+
+.trolls > div:nth-child(2) > div > div:nth-child(2) > p   {
+    background: yellow;
+}
+
+.trolls > div:nth-child(3) > div > div:nth-child(2) > p   {
+    background: yellow;
+}
+
+
+/***** ETAPE 6 *****/
+
+main>section>div>div>div>div>.boy{
+    text-decoration: underline  black;
+}
+
+/***** ETAPE 7 *****/
+
+.trolls > div:nth-child(2) > div > div:nth-child(odd) > p {
+    background-color: blue;
+}
+
+/***** ETAPE 8 *****/
+
+.trolls > div:nth-child(2) > div > div:first-child > div > p {
+    font-weight: bold;
+}
+.trolls > div:nth-child(3) > div > div:nth-child(3) > div > p {
+    font-weight: bold;
+}
+
+
+/***** ETAPE 9 *****/
+
+main>section>div>div>div:last-child,main>section>div>p {
+    font-style: italic;
+  }
+
+/***** ETAPE 10 *****/
+
+main>section>div:last-child>div>div:last-child>div>p:nth-child(2n+0) {
+    background-color: rgb(75, 255, 88);
+  }
+  
+  main>section>div:last-child>div>div:last-child>div>p:nth-child(2n+1) {
+    background-color: rgb(0, 99, 7);
+  }
+  
+
+/***** ETAPE 11*****/
+
+main>section>div:last-child>div>div:last-child>div>p:nth-child(2) {
+    text-decoration: line-through;
+  }
+  
+  main>section>div:last-child>div>div:last-child>div>p:nth-child(3) {
+    text-decoration: line-through;
+
+  }
+
+

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercice Flexbox</title>
+    <script src="https://kit.fontawesome.com/c1d0ab37d6.js"></script>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="">
+    <header class="bg-teal-500">
+        <div class="container flex flex-wrap justify-between items-center m-auto p-2 text-white relative">
+            <i id="bars" class="fas fa-bars fa-2x absolute right-0 mr-8 md:hidden rounded cursor-pointer p-2 hover:bg-teal-700"></i>
+            <h1 class="p-4 rounded bg-teal-800 m-auto md:m-0">Exercice Flexbox</h1>
+            <nav id="navbar" class="w-full hidden md:flex md:w-auto md:h-auto mt-4 md:mt-0 relative ">
+                <i id="close" class="fas fa-times absolute right-0 mr-8 fa-2x cursor-pointer p-2 hover:bg-teal-700 rounded md:hidden"></i>
+                <ul class="md:flex">
+                    <li class="h-12 md:h-auto">
+                        <a href="https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github" class="rounded p-4 lg:mx-8 hover:bg-teal-700" target="_blank">Rappel GIT et GITHUB</a>
+                    </li>
+                    <li class="h-12 md:h-auto dropdown relative">
+                        <a class="dropbtn cursor-pointer rounded p-4 hover:bg-teal-700">Tutos Flexbox</a>
+                        <div class="dropdown-content hidden mt-2 absolute md:right-0 bg-teal-700 w-48 md:text-right rounded">
+                            <a href="https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/3298561-faites-votre-mise-en-page-avec-flexbox" class="block hover:bg-teal-600 p-4 rounded">Open Classrooms</a>
+                            <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" class="block hover:bg-teal-600 p-4 rounded">CSS Tricks</a>
+                        </div>
+                    </li> 
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="flexs">
+        <nav class="sidenav center-element  bg-teal-100 ">
+            <ul>
+                <li class="p-4 hover:bg-teal-700">Link 1</li>
+                <li class="p-4 hover:bg-teal-700">Link 2</li>
+                <li class="p-4 hover:bg-teal-700">Link 3</li>
+                <li class="p-4 hover:bg-teal-700">Link 4</li>
+                <li class="p-4 hover:bg-teal-700">Link 5</li>
+            </ul>
+        </nav>
+
+        <div class="text-gray-800 flexs wraps elements">
+            <section class="h-32 un  lg:h-48 ">
+                <div class="rounded center-element h-100 bg-red-500 m-4">
+                    <div class="one w-16 h-16 rounded-full  flex justify-center items-center bg-red-200">1</div>
+                </div>              
+            </section>
+    
+            <section class="h-32 deux lg:h-48 ">
+                <div class="rounded center-element h-100 flexs bg-orange-500  m-4">
+                    <div class="two w-16 h-16 rounded-full  flex justify-center items-center bg-orange-200">2</div>
+                </div>              
+            </section>
+    
+            <section class="h-32 trois lg:h-48 ">
+                <div class="rounded center-element h-100 flexs bg-yellow-500  m-4">
+                    <div class="three w-16 h-16 rounded-full  flex justify-center items-center bg-yellow-200">3</div>
+                </div>               
+            </section>
+    
+            <section class="h-32 quatre lg:h-48 ">
+                <div class="rounded center-element h-100 flexs bg-green-500  m-4">
+                    <div class="four w-16 h-16 rounded-full  flex justify-center items-center bg-green-200">4</div>
+                </div>               
+            </section>
+    
+            <section class="h-32 cinque lg:h-48 ">
+                <div class="rounded center-element h-100 flexs bg-blue-500  m-4">
+                    <div class="five w-16 h-16 rounded-full  flex justify-center items-center bg-blue-200">5</div>
+                </div>               
+            </section>
+    
+            <section class="h-32 six lg:h-48 ">
+                <div class="rounded center-element h-100 flexs bg-purple-500  m-4">
+                    <div class="six w-16 h-16 rounded-full  flex justify-center items-center bg-purple-200">6</div>
+                </div>
+            </section>
+    
+            <section class="h-32 sept lg:h-48 ">
+                <div class="rounded center-element h-100 flexs bg-pink-500  m-4">
+                    <div class="seven w-16 h-16 rounded-full  flex justify-center items-center bg-pink-200">7</div>
+                </div>     
+            </section>
+        </div>
+    </main>
+
+    <footer class="bg-teal-400 wraps flexs p-4 text-white">
+        <nav class="">
+            <ul class="bg-teal-700 mid  headee rounded">
+                <li class="p-2 hover:bg-teal-700">Link 1</li>
+                <li class="p-2 hover:bg-teal-700">Link 2</li>
+                <li class="p-2 hover:bg-teal-700">Link 3</li>
+            </ul>
+        </nav>
+        
+        <nav class="">
+            <ul class="bg-teal-700 mid  headee rounded">
+                <li class="p-2 hover:bg-teal-700">Link 1</li>
+                <li class="p-2 hover:bg-teal-700">Link 2</li>
+                <li class="p-2 hover:bg-teal-700">Link 3</li>
+            </ul>
+        </nav>
+        
+        <nav class="">
+            <ul class="bg-teal-700 mid headee rounded">
+                <li class="p-2 hover:bg-teal-700">Link 1</li>
+                <li class="p-2 hover:bg-teal-700">Link 2</li>
+                <li class="p-2 hover:bg-teal-700">Link 3</li>
+            </ul>
+        </nav>
+    </footer>
+
+    <script>
+        document.getElementById('bars').addEventListener('click', event => {
+            document.getElementById('navbar').style.display = 'block'
+            document.getElementById('bars').style.display = 'none'
+        })
+
+        document.getElementById('close').addEventListener('click', event => {
+            document.getElementById('navbar').style.display = 'none'
+            document.getElementById('bars').style.display = 'block'
+        })
+    </script>
+</body>
+</html>

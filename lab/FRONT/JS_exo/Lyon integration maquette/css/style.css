@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap');
+
+* {
+  margin: 0;
+}
+h2{
+  font-family: Montserrat;
+}
+p{
+  color: #787878;
+font-family: "Nunito Sans";
+padding: 10px;
+}
+.mont{
+  font-family: Montserrat;
+}
+
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 2px;
+  background-color: #333;
+  margin: 6px 0;
+ 
+}
+
+
+.up {
+  margin-top: -55px;
+}
+.but{
+  width: 157px;
+height: 54px;
+background-color: #10c9c3;
+border: none;
+color: white;
+}
+
+.esp{
+    height: 100px;
+}
+.ju{
+  height: 50px;
+}
+.juss{
+  height: 20px;
+}
+
+.mar{
+  margin-left: 100px;
+}
+
+.yoo{
+  text-align: center;
+  
+}
+
+.ima{
+  background-image: url(../img/Calque_1.png);
+  height: 500px;  
+}
+
+.skills{
+  
+background-color: #f8f9f9;
+padding: 50px;
+}
+
+.ui{
+  width: 200px;
+height: 5px;
+background-color: #10c9c3;
+}
+
+.uii{
+  width: 260px;
+height: 5px;
+background-color: #10c9c3;
+}
+
+.uiii{
+  width: 180px;
+height: 5px;
+background-color: #10c9c3;
+}
+
+.su{
+  width: 300px;
+  height: 5px;
+  background-color: #d8d8d8;
+}
+
+.affaire{
+ padding: 50px;
+background-color: #10c9c3;
+color: white;
+}
+
+.load{
+  background-color: #f5f5f5;
+  padding: 10px;
+  color: #8e8e8e;
+}
+
+.video{
+  color: #787878;
+}
+
+.action{
+  background-color: #f5f5f5;
+  padding: 50px;
+}
+.testimo{
+  padding: 50px;
+  color: white;
+  background-color: #10c9c3;
+}
+
+.main-rond{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+.second-rond{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #b0e8e6;
+}
+
+.pub{
+
+}
+
+.formulaire{
+  padding: 50px;
+  background-color: #f5f5f5;
+}
+
+.in{
+  width: 100%;
+  padding: 3%;
+}
+
+.foot{
+  padding: 50px;
+  color: white;
+  background-color: #141414;
+}
+
+.fot{
+  color: #bcbcbc;
+font-family: "Nunito Sans";
+}
+
+.video_cat{
+  position: relative;
+  margin-top: 30px;
+}
+.moove{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: #10c9c3;
+  top: calc(50% - 40px);
+  left: calc(50% - 40px);
+}
+.moove img {
+  width: 15px;
+  height: 15px;
+}
+
+.fas{
+  color: white;
+}
